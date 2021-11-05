@@ -1,0 +1,36 @@
+[
+    {
+        "name": "test1",
+        "method": "GET",
+        "uri": {
+            "path": "test1"
+        },
+        "extra": {
+            "middlewares": []
+        }
+    },
+    {
+        "name": "test2",
+        "method": "GET",
+        "uri": {
+            "path": "foo/test2"
+        },
+        "extra": {
+            "middlewares": [
+                "api"
+            ]
+        }
+    },
+    {
+        "name": "test3",
+        "method": "GET",
+        "uri": {
+            "path": "foo/test3"
+        },
+        "extra": {
+            "middlewares": [
+                "api"
+            ]
+        }
+    }
+]

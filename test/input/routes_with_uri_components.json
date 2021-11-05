@@ -1,0 +1,23 @@
+[
+    {
+        "name": "test1",
+        "method": "GET",
+        "uri": {
+            "path": "test1"
+        }
+    },
+    {
+        "name": "test2",
+        "method": "GET",
+        "uri": {
+            "path": "foo/test2"
+        }
+    },
+    {
+        "name": "test3",
+        "method": "GET",
+        "uri": {
+            "path": "foo/test3"
+        }
+    }
+]

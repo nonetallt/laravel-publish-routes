@@ -1,0 +1,4 @@
+vendor/
+tags
+.env
+.phpunit.result.cache

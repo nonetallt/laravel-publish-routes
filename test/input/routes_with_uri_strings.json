@@ -1,0 +1,17 @@
+[
+    {
+        "name": "test1",
+        "method": "GET",
+        "uri": "/test1"
+    },
+    {
+        "name": "test2",
+        "method": "GET",
+        "uri": "foo/test2"
+    },
+    {
+        "name": "test3",
+        "method": "GET",
+        "uri": "foo/test3"
+    }
+]

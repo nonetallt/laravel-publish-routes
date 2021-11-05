@@ -1,0 +1,39 @@
+{
+    "name": "nonetallt/laravel-publish-routes",
+    "description": "Publish routes as a json file that can be utilized by route-repository javascript package.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jyri Mikkola",
+            "email": "jyri.mikkola@pp.inet.fi"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Nonetallt\\Laravel\\Route\\Publish\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Test\\": "test/"
+        }
+    },
+    "require": {
+        "php": ">=7.1",
+        "laravel/framework": ">=5.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "spatie/phpunit-watcher": "^1.23",
+        "orchestra/testbench": "^6.22"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Nonetallt\\Laravel\\Route\\Publish\\ServiceProvider"
+            ]
+        }
+    }
+}
