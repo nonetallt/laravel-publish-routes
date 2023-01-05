@@ -9,7 +9,7 @@ This package allows you to generate a json file containing your Laravel applicat
 Use composer:
 
 ```
-composer install nonetallt/laravel-publish-routes --dev
+composer require nonetallt/laravel-publish-routes --dev
 ```
 
 ## Basic usage
